@@ -1,0 +1,19 @@
+# Ignorar node_modules (carpeta con dependencias)
+backend/node_modules/
+
+# Ignorar archivos de dependencias generadas automáticamente
+package-lock.json
+
+# Ignorar logs y caché
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Ignorar archivos del editor de código
+.vscode/
+.idea/
+
+# Ignorar caché de compilaciones de TypeScript (si usas)
+dist/
